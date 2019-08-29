@@ -15,5 +15,16 @@ h2 {
 }
 
 body {
-  background-color: ##F5D1C3;
+  background-color: #F7F3F0;
+}
+#nav {
+  padding: 0;
+  list-style-type: none;
+}
+#nav li{
+  border: 1p solid #F5D1C3;
+}
+
+#nav a:link, #nav a:visited {
+  
 }
