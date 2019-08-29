@@ -8,6 +8,7 @@ p {
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
 h2 {
@@ -22,9 +23,15 @@ body {
   list-style-type: none;
 }
 #nav li{
-  border: 1p solid #F5D1C3;
+  border: 1px solid #F5D1C3;
 }
 
 #nav a:link, #nav a:visited {
-  
+  display: block;
+  color: #5F9595;
+  background-color: #F5D1C3;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
 }
