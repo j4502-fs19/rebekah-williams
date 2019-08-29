@@ -37,6 +37,6 @@ body {
   padding: 4px;
 }
 
-#nav a:hover, #nav a:visited {
+#nav a:hover, #nav a:active {
   background-color: #F2AB9B;
 }
