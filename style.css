@@ -2,10 +2,14 @@
 
 p {
 
-  color:#5F9595
+  color:#5F9595;
   font-family: Georgia, "Times New Roman", serif;
 }
 
 h1 {
-  font-family: Georgia, "Times New Roman", serif; 
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  background-color: ##F5D1C3;
 }
