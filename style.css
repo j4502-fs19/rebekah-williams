@@ -34,4 +34,9 @@ body {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  padding: 4px;
+}
+
+#nav a:hover, #nav a:visited {
+  background-color: #F2AB9B;
 }
