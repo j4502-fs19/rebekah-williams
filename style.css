@@ -3,19 +3,19 @@
 p {
 
   color:#5F9595;
-  font-family:'Source Sans Pro', sans-serif;
+  font-family:'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
 
 }
 
 h1 {
-  font-family:'Gilda Display', serif;
+  font-family:'Gilda Display', Georgia, serif;
   text-align: center;
 
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   text-align: center;
 
 }
@@ -35,7 +35,7 @@ body {
   display: block;
   color: #5F9595;
   background-color: #F5D1C3;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -49,11 +49,11 @@ body {
 #contact{
   text-align: center;
   color: #5F9595;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 .caption{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   color: black;
   font-style: italic;
   text-align: right;
@@ -63,7 +63,7 @@ body {
 
 #footer{
   color:black
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   font-size: 0.8em;
   border-top: 1px solid black;
 }
