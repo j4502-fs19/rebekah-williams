@@ -2,7 +2,7 @@
 
 p {
 
-  color:#5F9595;
+  color:#D9AB91;
   font-family:'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
 
@@ -11,29 +11,31 @@ p {
 h1 {
   font-family:'Gilda Display', Georgia, serif;
   text-align: center;
+  color: #313E40
 
 }
 
 h2 {
   font-family: 'Lato', Helvetica, sans-serif;
   text-align: center;
+  color: #313E40
 
 }
 
 body {
-  background-color: #F7F3F0;
+  background-color: #6C898C;
 }
 #nav {
   padding: 0;
   list-style-type: none;
 }
 #nav li{
-  border: 1px solid #F5D1C3;
+  border: 1px solid #D9AB91;
 }
 
 #nav a:link, #nav a:visited {
   display: block;
-  color: #5F9595;
+  color: #D9AB91;
   background-color: #F5D1C3;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: bold;
@@ -48,15 +50,14 @@ body {
 
 #contact {
   text-align: center;
-  color: #5F9595;
+  color: #D9AB91;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 
-
 .caption{
   font-family: 'Lato', Helvetica, sans-serif;
-  color: black;
+  color: #313E40;
   font-style: italic;
   text-align: right;
   font-size: 0.8em;
@@ -64,7 +65,7 @@ body {
 }
 
 #footer{
-  color:black
+  color:#313E40
   font-family: 'Gilda Display', Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
