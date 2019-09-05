@@ -52,8 +52,9 @@ body {
   text-align: center;
   color: #555954;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  padding: 0;
+  list-style-type: none;
 }
-
 
 .caption{
   font-family: 'Lato', Helvetica, sans-serif;
@@ -65,7 +66,7 @@ body {
 }
 
 #footer{
-  color:#313E40
+  color:#313E40;
   font-family: 'Gilda Display', Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
