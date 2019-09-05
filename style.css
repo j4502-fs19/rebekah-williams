@@ -2,7 +2,7 @@
 
 p {
 
-  color:#D9AB91;
+  color:#555954;
   font-family:'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
 
@@ -11,46 +11,46 @@ p {
 h1 {
   font-family:'Gilda Display', Georgia, serif;
   text-align: center;
-  color: #313E40
+  color: #3D403A
 
 }
 
 h2 {
   font-family: 'Lato', Helvetica, sans-serif;
   text-align: center;
-  color: #313E40
+  color: #3D403A
 
 }
 
 body {
-  background-color: #6C898C;
+  background-color: #DCEEF2;
 }
 #nav {
   padding: 0;
   list-style-type: none;
 }
 #nav li{
-  border: 1px solid #D9AB91;
+  border: 1px solid #555954;
 }
 
 #nav a:link, #nav a:visited {
   display: block;
-  color: #D9AB91;
-  background-color: #F5D1C3;
+  color: #555954;
+  background-color: #C1D4D9;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   padding: 4px;
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #F2AB9B;
+  background-color: #8FA6A1;
 }
 
 #contact {
   text-align: center;
-  color: #D9AB91;
+  color: #555954;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
