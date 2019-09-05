@@ -60,7 +60,7 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #313E40;
   font-style: italic;
-  text-align: right;
+  text-align: center;
   font-size: 0.8em;
   margin-top: 0;
 }
@@ -70,6 +70,7 @@ body {
   font-family: 'Gilda Display', Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+  text-align: right;
 }
 img{
   border: none;
