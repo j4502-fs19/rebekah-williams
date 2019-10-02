@@ -78,7 +78,8 @@ img{
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -90,7 +91,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Lato', Helvetica, sans-serif;
     text-decoration: none;
     margin-bottom: 1em;
 }
