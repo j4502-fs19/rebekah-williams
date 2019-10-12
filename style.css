@@ -35,13 +35,16 @@ body {
 }
 
 .cards {
-    margin: 0 -10px;
-    padding: 0;
+    margin: 0 10px;
+    padding: 20px;
     text-decoration: none;
     list-style: none;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap:20px;
+    grid-template-areas:
+          ". a b"
+          ". c d"
+          ". . .";
 }
 
 .cards li {
@@ -51,6 +54,22 @@ body {
     border-radius: 5px;
 }
 
+.card1 {
+      grid-area: a;
+  }
+
+  .card2 {
+      grid-area: b;
+  }
+
+  .card3 {
+      grid-area: c;
+  }
+
+  .card4 {
+      grid-area: d;
+
+  }
 
 .caption{
   font-family: 'Lato', Helvetica, sans-serif;
