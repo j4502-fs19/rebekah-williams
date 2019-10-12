@@ -41,6 +41,7 @@ body {
     list-style: none;
     display:grid;
     grid-gap:20px;
+    align-items: flex-start;
     grid-template-areas:
           ". a b"
           ". c d"
@@ -117,4 +118,6 @@ nav ul li a {
         font-family: 'Lato', Helvetica, sans-serif;
         text-decoration: none;
   }
+
+  @media screen and (min-width)
 }
