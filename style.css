@@ -122,27 +122,27 @@ nav ul li a {
 @media screen and (min-width: 600px) {
 .cards{
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
   list-style: none;
   display:grid;
+  
   grid-gap:20px;
-  align-items: flex-start;
+
 
   }
 }
 
   @media screen and (min-width: 900px){
 .cards{
-  margin-left: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 15%);
     grid-template-rows: repeat(3, 100px);
-    grid-template-areas:
-          ". a b"
-          ". c d"
-          ". . .";
     grid-gap: 50px;
     align-content: space-between;
     justify-content: space-between;
