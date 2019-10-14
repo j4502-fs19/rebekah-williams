@@ -34,6 +34,10 @@ body {
   list-style-type: none;
 }
 
+.container{
+  max-width: 65%;
+}
+
 .cards {
 padding: 0;
 list-style: none;
@@ -129,7 +133,6 @@ nav ul li a {
   display:grid;
 
   grid-gap:20px;
-
 
   }
 }
