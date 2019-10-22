@@ -26,6 +26,67 @@ body {
   background-color: white;
 }
 
+
+
+nav ul li a {
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+/*hamburger menu styling starts*/
+nav ul li {
+    display: block;
+    border-top: 1px #BFD8D1; solid;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+  color:#BFD8D1;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
+ nav ul {
+display: none;
+}
+
+
+ header{
+  background-color:#65A8A6;
+  margin:0;
+  padding:0 10px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+}
+
+.menu-trigger {
+   order:1;
+ }
+
+ header h1{
+    order:2;
+    color:white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contact {
   text-align: center;
   color: #555954;
@@ -100,17 +161,7 @@ img{
 
 
 
-nav ul li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
-nav ul li a {
-    font-family: 'Lato', Helvetica, sans-serif;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
 
 
 @media screen and (min-width: 600px) {
