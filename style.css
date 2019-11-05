@@ -3,7 +3,6 @@
 body {
   background-color: #FFFF;
   font-family: Lato, Helvetica, sans-serif;
-  text-align: center;
 }
 
 nav ul li {
@@ -40,6 +39,19 @@ header h1 {
 nav ul {
     display: none;
 }
+
+.intro{
+  text-align: right;
+  display: grid;
+  grid-column: 1fr 1fr;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 700px){
 
