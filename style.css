@@ -1,205 +1,63 @@
-/*stlyes go here*/
-
-p {
-
-  color:#555954;
-  font-family:'Source Sans Pro', Helvetica, sans-serif;
-  text-align: center;
-
-}
-
-h1 {
-  font-family:'Gilda Display', Georgia, serif;
-  text-align: center;
-  color: #A0899D
-
-}
-
-h2 {
-  font-family: 'Lato', Helvetica, sans-serif;
-  text-align: center;
-  color: #3D403A
-
-}
-
 body {
-  background-color: white;
+  background-color: #FFFF;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-
-
-nav ul li a {
-    font-family: 'Lato', Helvetica, sans-serif;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
-/*hamburger menu styling starts*/
 nav ul li {
     display: block;
-    border-top: 1px #BFD8D1; solid;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    border-top: 1px #79896d solid;
 }
+
 nav a {
-  color:#BFD8D1;
-  display:block;
-  text-decoration: none;
-  padding:20px 30px;
- }
-
- nav ul {
-display: none;
-}
-
-
- header{
-  background-color:#65A8A6;
-  margin:0;
-  padding:0 10px;
+    color: #FFFF;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
 }
 
 header {
-  display: flex;
-  flex-flow: row;
+    display: flex;
+    flex-flow: row;
+    background-color: #DF7449;
+    margin: 0;
+    padding: 0 10px;
 }
 
 .menu-trigger {
-   order:1;
- }
-
- header h1{
-    order:2;
-    color:white;
-  }
-
-
-
-#contact {
-  text-align: center;
-  color: #555954;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  padding: 0;
-  list-style-type: none;
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
 }
 
-.container{
-  max-width: 65%;
+header h1 {
+    order: 2;
+    font-size: 2em;
 }
 
-.cards {
-padding: 0;
-list-style: none;
-margin: 0;
-display: grid;
-grid-gap: 20px;
-grid-template-columns: 1fr 1fr 1fr;
-grid-auto-rows: minmax(150px, auto);
-    grid-template-areas:
-    "a . ."
-    "b . ."
-    "c . ."
-    "d . .";
-
-}
-
-.cards li {
-    background-color: #BFD8D1;
-    border: 1px solid #ccc;
-    padding: 0;
-    border-radius: 0;
-}
-
-.card1 {
-      grid-area: a;
-  }
-
-  .card2 {
-      grid-area: b;
-  }
-
-  .card3 {
-      grid-area: c;
-  }
-
-  .card4 {
-      grid-area: d;
-
-  }
-
-.caption{
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #313E40;
-  font-style: italic;
-  text-align: center;
-  font-size: 0.8em;
-  margin-top: 0;
-}
-
-#footer{
-  color:#313E40;
-  font-family: 'Gilda Display', Georgia, serif;
-  font-size: 0.8em;
-  border-top: 1px solid black;
-  text-align: right;
-}
-img{
-  border: none;
-}
-
-
-
-
-
-
-@media screen and (min-width: 600px) {
-  #nav {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        font-family: 'Lato', Helvetica, sans-serif;
-        text-decoration: none;
-  }
-
-@media screen and (min-width: 600px) {
-.cards{
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: none;
-  list-style: none;
-  display:grid;
-  grid-gap:10px;
-  grid-template-areas:
-  ". a b"
-  ". c d"
-  ". . .";
-  }
-  .menu-trigger{
+nav ul {
     display: none;
-  }
 }
 
-  @media screen and (min-width: 900px){
-.cards{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, 15%);
-    grid-template-rows: repeat(2, 100px);
-    grid-gap: 30px;
-    grid-template-areas:
-    ". a b ."
-    ". c d .";
-    align-content: space-between;
-    justify-content: space-between;
+@media screen and (min-width: 700px){
 
-}
+    nav ul {
+        display: flex;
+    }
 
-  }
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
 }
