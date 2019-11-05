@@ -12,7 +12,7 @@ nav ul li {
 }
 
 nav a {
-    color: #FFFF;
+    color: #4C4C4C;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
@@ -21,7 +21,7 @@ nav a {
 header {
     display: flex;
     flex-flow: row;
-    background-color: #DF7449;
+    background-color: #FFFF;
     margin: 0;
     padding: 0 10px;
 }
