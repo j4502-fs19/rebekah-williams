@@ -2,8 +2,24 @@
 
 body {
   background-color: #FFFF;
-  font-family: Lato, Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
+  margin: 20px 0px 20px 50px;
+  color: #4C4C4C
 }
+
+footer{
+  display: block;
+  background-color: #BFD8D1;
+  font-family: 'Lato', Helvetica, sans-serif;
+  width: 100%;
+}
+footer a {
+  padding: 2px 10px;
+  width: 80%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
 
 nav ul li {
     display: block;
@@ -33,20 +49,29 @@ header {
 
 header h1 {
     order: 2;
-    font-size: 2em;
+    font-size: 24px;
 }
 
 nav ul {
     display: none;
 }
 
-.intro{
-  text-align: right;
-  display: grid;
-  grid-column: 1fr 1fr;
+.intro h1{
+  font-family:  "Lato", Helvetica, sans-serif;
+  text-align: center;
+  margin: 2em;
 }
 
+.intro h2{
+  font-family:  "Lato", Helvetica, sans-serif;
+  text-align: left;
+  margin: 2em;
+}
 
+footer{
+  color:#4C4C4C;
+  font-size: 12px;
+}
 
 
 
