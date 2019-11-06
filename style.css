@@ -13,13 +13,13 @@ footer{
   font-family: 'Lato', Helvetica, sans-serif;
   width: 100%;
 }
+
 footer a {
   padding: 2px 10px;
   width: 80%;
   font-size: 0.8em;
   text-align: center;
 }
-
 
 nav ul li {
     display: block;
@@ -73,6 +73,9 @@ footer{
   font-size: 12px;
 }
 
+h1{
+  text-align: center;
+}
 
 
 
