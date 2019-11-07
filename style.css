@@ -23,7 +23,7 @@ footer a {
 
 nav ul li {
     display: block;
-    border-top: 1px #79896d solid;
+    border-top: 1px #2A3340 solid;
 }
 
 nav a {
@@ -49,12 +49,14 @@ header {
 
 header h1 {
     order: 2;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 nav ul {
     display: none;
 }
+
+
 
 .intro h1{
   font-family:  "Lato", Helvetica, sans-serif;
@@ -160,7 +162,29 @@ input[type=submit]:hover {
  padding: 20px;
 }
 
+@media screen and (min-width: 700px){
 
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
 @media screen and (max-width: 600px){
   .column {
     width: 100%;
