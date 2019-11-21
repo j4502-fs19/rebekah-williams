@@ -5,7 +5,10 @@ body {
   font-family: "Lato", Helvetica, sans-serif;
   margin: 20px 0px 20px 50px;
   color: #2A3340
-  max-width:1200px;
+}
+
+body{
+  max-width: 1200px;
 }
 
 footer{
